@@ -1,11 +1,10 @@
-package pl.coderslab;
+package pl.coderslab.entity;
 
 public class User {
     private int id;
     private String email;
     private String username;
     private String password;
-
 
     public User() {
     }
@@ -34,7 +33,7 @@ public class User {
     }
 
     public String getUsername() {
-        return this.username;
+        return username;
     }
 
     public void setUsername(String username) {

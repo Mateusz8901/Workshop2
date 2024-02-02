@@ -1,6 +1,5 @@
 package pl.coderslab;
 public class ConsoleColors {
-    // Reset
     public static final String RESET = "\033[0m";  // Text Reset
 
     // Regular Colors
@@ -13,7 +12,6 @@ public class ConsoleColors {
     public static final String CYAN = "\033[0;36m";    // CYAN
     public static final String WHITE = "\033[0;37m";   // WHITE
 
-    // Bold
     public static final String BLACK_BOLD = "\033[1;30m";  // BLACK
     public static final String RED_BOLD = "\033[1;31m";    // RED
     public static final String GREEN_BOLD = "\033[1;32m";  // GREEN
@@ -23,7 +21,6 @@ public class ConsoleColors {
     public static final String CYAN_BOLD = "\033[1;36m";   // CYAN
     public static final String WHITE_BOLD = "\033[1;37m";  // WHITE
 
-    // Underline
     public static final String BLACK_UNDERLINED = "\033[4;30m";  // BLACK
     public static final String RED_UNDERLINED = "\033[4;31m";    // RED
     public static final String GREEN_UNDERLINED = "\033[4;32m";  // GREEN
@@ -33,7 +30,6 @@ public class ConsoleColors {
     public static final String CYAN_UNDERLINED = "\033[4;36m";   // CYAN
     public static final String WHITE_UNDERLINED = "\033[4;37m";  // WHITE
 
-    // Background
     public static final String BLACK_BACKGROUND = "\033[40m";  // BLACK
     public static final String RED_BACKGROUND = "\033[41m";    // RED
     public static final String GREEN_BACKGROUND = "\033[42m";  // GREEN
@@ -43,7 +39,6 @@ public class ConsoleColors {
     public static final String CYAN_BACKGROUND = "\033[46m";   // CYAN
     public static final String WHITE_BACKGROUND = "\033[47m";  // WHITE
 
-    // High Intensity
     public static final String BLACK_BRIGHT = "\033[0;90m";  // BLACK
     public static final String RED_BRIGHT = "\033[0;91m";    // RED
     public static final String GREEN_BRIGHT = "\033[0;92m";  // GREEN
@@ -53,7 +48,6 @@ public class ConsoleColors {
     public static final String CYAN_BRIGHT = "\033[0;96m";   // CYAN
     public static final String WHITE_BRIGHT = "\033[0;97m";  // WHITE
 
-    // Bold High Intensity
     public static final String BLACK_BOLD_BRIGHT = "\033[1;90m"; // BLACK
     public static final String RED_BOLD_BRIGHT = "\033[1;91m";   // RED
     public static final String GREEN_BOLD_BRIGHT = "\033[1;92m"; // GREEN
@@ -63,7 +57,6 @@ public class ConsoleColors {
     public static final String CYAN_BOLD_BRIGHT = "\033[1;96m";  // CYAN
     public static final String WHITE_BOLD_BRIGHT = "\033[1;97m"; // WHITE
 
-    // High Intensity backgrounds
     public static final String BLACK_BACKGROUND_BRIGHT = "\033[0;100m";// BLACK
     public static final String RED_BACKGROUND_BRIGHT = "\033[0;101m";// RED
     public static final String GREEN_BACKGROUND_BRIGHT = "\033[0;102m";// GREEN

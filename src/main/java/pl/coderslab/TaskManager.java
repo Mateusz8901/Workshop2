@@ -85,12 +85,12 @@ public class TaskManager {
     Scanner scanner = new Scanner(System.in);
 
     public void run() {
-        // ...
+
         while (keepRunning) {
             printMenu();
             int choice = getMenuOption();
             switch (choice) {
-                // ...
+
                 case 1:
                     System.out.print("Enter task title: ");
                     String title = scanner.nextLine().trim();
@@ -128,10 +128,11 @@ public class TaskManager {
                     saveTaskToFile(task, "tasks.csv");
                     System.out.println("Task added successfully.");
                     break;
+
                 case 2:
                     System.out.println("Enter the index of the task to remove:");
                     int index = scanner.nextInt();
-                    scanner.nextLine(); // consume newline
+                    scanner.nextLine();
 
                     if (index >= 0 && index < tasks.size()) {
                         tasks.remove(index);
@@ -145,6 +146,7 @@ public class TaskManager {
                     break;
 
                 case 3:
+
                     try {
                         loadTasksFromFile("tasks.csv");
                     } catch (IOException e) {
@@ -160,7 +162,7 @@ public class TaskManager {
                     break;
 
                 case 4:
-                    saveTasksToFile("tasks.csv");  // Zapis zmian do pliku
+                    saveTasksToFile("tasks.csv");
                     System.out.println("Tasks saved successfully. Exiting...");
                     keepRunning = false;
                     break;
